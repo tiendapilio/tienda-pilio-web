@@ -1,22 +1,16 @@
-# Tienda Pilio Web
+# Tienda Pilio Web v2
 
-Sitio estatico listo para publicar en GitHub y Vercel.
+Esta versión incluye:
+- Nuevo WhatsApp: +595971482844
+- Corrección de iPhone 13 Pro
+- Carrusel de fotos por producto
+- Imágenes ampliables al hacer clic
+- Mejoras de navegación móvil
 
-## Contenido
-- `index.html`: pagina principal
-- `styles.css`: estilos del sitio
-- `assets/`: imagenes y logo
-- `vercel.json`: configuracion basica para Vercel
-
-## Publicacion en GitHub
-1. Crea un repositorio publico, por ejemplo `tienda-pilio-web`.
-2. Sube todos los archivos de esta carpeta al repositorio.
-3. Entra a Vercel con tu cuenta.
-4. Importa el repositorio desde GitHub.
-5. Publica el proyecto.
-6. Luego conecta tu dominio `tiendapilio.com.py` desde Settings > Domains en Vercel.
-
-## Ediciones futuras
-- Cambia textos, precios o enlaces dentro de `index.html`.
-- Reemplaza fotos dentro de `assets/` manteniendo los nombres o actualizando las rutas en `index.html`.
-- Sube los cambios a GitHub y Vercel actualizara la web.
+## Para actualizar en GitHub
+Subí y reemplazá estos archivos en tu repositorio actual:
+- index.html
+- styles.css
+- script.js
+- vercel.json
+- carpeta assets
