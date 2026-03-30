@@ -16,7 +16,7 @@
       <a href="#inicio" class="brand" aria-label="Ir al inicio de Tienda Pilio">
         <img src="assets/logo.png" alt="Logo de Tienda Pilio" class="brand-logo" />
         <div>
-          <strong>TIENDA PILIO</strong>
+          <strong>Tienda Pilio</strong>
           <span>Tienda de iPhone y accesorios Apple en Paraguay</span>
         </div>
       </a>
@@ -24,9 +24,9 @@
       <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
 
       <nav class="nav" id="mainNav">
-        <a href="#stock">Stock</a>
+        <a href="#stock">Catálogo</a>
         <a href="#pedido">Por pedido</a>
-        <a href="#galeria">Galería</a>
+        <a href="#confianza">Nosotros</a>
         <a href="#redes">Redes</a>
         <a href="#contacto">Contacto</a>
         <a class="nav-whatsapp mobile-only" href="https://wa.me/595971482844" target="_blank" rel="noreferrer">WhatsApp</a>
@@ -38,54 +38,81 @@
 
   <main>
     <section class="hero" id="inicio">
-      <div class="container hero-grid">
+      <div class="container hero-shell">
         <div class="hero-copy">
           <div class="eyebrow">TIENDA ESPECIALIZADA EN IPHONE</div>
           <h1>iPhones en stock y por pedido en Paraguay</h1>
-          <p>
-            En Tienda Pilio te ayudamos a conseguir tu iPhone ideal con atención personalizada,
-            precios visibles, equipos confiables y envíos a todo el país 🇵🇾.
+          <p class="hero-lead">
+            Encontrá tu próximo iPhone con fotos reales, precios visibles, atención personalizada
+            y envíos a todo el país 🇵🇾.
           </p>
+
           <div class="hero-actions">
-            <a href="#stock" class="btn btn-primary">Ver stock disponible</a>
-            <a href="https://wa.me/595971482844" target="_blank" rel="noreferrer" class="btn btn-secondary">Pedir por WhatsApp</a>
+            <a href="#stock" class="btn btn-primary">Ver catálogo</a>
+            <a href="https://wa.me/595971482844" target="_blank" rel="noreferrer" class="btn btn-secondary">Consultar por WhatsApp</a>
           </div>
-          <div class="hero-tags">
-            <span>Stock disponible</span>
-            <span>Por pedido</span>
-            <span>Envíos a todo el país 🇵🇾</span>
+
+          <div class="hero-feature-row">
+            <div class="hero-feature">
+              <strong>Stock disponible</strong>
+              <span>Equipos listos para entrega inmediata</span>
+            </div>
+            <div class="hero-feature">
+              <strong>Envíos a todo el país 🇵🇾</strong>
+              <span>Coordinamos entrega o envío seguro</span>
+            </div>
           </div>
         </div>
 
         <div class="hero-media">
-          <img src="assets/iphone13pro-1.jpg" alt="iPhone disponible en Tienda Pilio" />
+          <div class="hero-card hero-main-image">
+            <img src="assets/iphone13pro-1.jpg" alt="iPhone disponible en Tienda Pilio" />
+          </div>
+          <div class="hero-mini-grid">
+            <div class="hero-card mini">
+              <span class="mini-label">Catálogo real</span>
+              <strong>Fotos reales de cada equipo</strong>
+            </div>
+            <div class="hero-card mini dark">
+              <span class="mini-label">Atención</span>
+              <strong>Asesoría directa por WhatsApp</strong>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="highlights">
-      <div class="container chip-row">
-        <span>Atención personalizada</span>
-        <span>Precios visibles</span>
-        <span>Envíos a todo el país 🇵🇾</span>
-        <span>Proceso claro de compra</span>
+    <section class="trust-strip">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <strong>Equipos en stock</strong>
+          <span>Con precios visibles y fotos propias</span>
+        </div>
+        <div class="trust-item">
+          <strong>Compra por pedido</strong>
+          <span>Traemos modelos específicos desde Estados Unidos</span>
+        </div>
+        <div class="trust-item">
+          <strong>Envíos a todo el país</strong>
+          <span>Entrega coordinada con atención personalizada</span>
+        </div>
       </div>
     </section>
 
     <section class="stock-section" id="stock">
-      <div class="container section-head two-col">
+      <div class="container section-head premium-head">
         <div>
-          <div class="eyebrow">CATÁLOGO PRINCIPAL</div>
+          <div class="eyebrow">CATÁLOGO DESTACADO</div>
           <h2>Stock disponible</h2>
         </div>
         <p>
-          Esta es la parte principal de la tienda: equipos listos para entrega inmediata,
-          con precios visibles, fotos reales y botón directo a WhatsApp.
+          Mirá cada equipo con más detalle. Podés deslizar las fotos,
+          abrirlas en grande y consultar directo por WhatsApp.
         </p>
       </div>
 
       <div class="container catalog-grid">
-        <article class="product-card">
+        <article class="product-card premium">
           <div class="carousel" data-carousel>
             <button class="carousel-btn prev" aria-label="Imagen anterior">‹</button>
             <div class="carousel-track">
@@ -102,7 +129,10 @@
             <div class="dots"></div>
           </div>
           <div class="product-body">
-            <div class="badge">Disponible</div>
+            <div class="product-meta">
+              <span class="badge">Disponible</span>
+              <span class="product-tag">Stock inmediato</span>
+            </div>
             <h3>iPhone 13 Pro</h3>
             <p>128 GB · Batería 87% · Entrega inmediata</p>
             <div class="price">Gs. 2.700.000</div>
@@ -110,7 +140,7 @@
           </div>
         </article>
 
-        <article class="product-card">
+        <article class="product-card premium">
           <div class="carousel" data-carousel>
             <button class="carousel-btn prev" aria-label="Imagen anterior">‹</button>
             <div class="carousel-track">
@@ -128,15 +158,18 @@
             <div class="dots"></div>
           </div>
           <div class="product-body">
-            <div class="badge">Disponible</div>
+            <div class="product-meta">
+              <span class="badge">Disponible</span>
+              <span class="product-tag">Color naranja</span>
+            </div>
             <h3>iPhone 17 Pro Max</h3>
             <p>256 GB · Color naranja · Entrega inmediata</p>
             <div class="price">Gs. 8.300.000</div>
-            <a class="btn btn-primary full" target="_blank" rel="noreferrer" href="https://wa.me/595971482844?text=Hola%2C%20quiero%20consultar%20por%20el%20iPhone%2017%20Pro%20Max%20256GB%20color%20naranja%20de%20Tienda%20Pilio">Consultar por WhatsApp</a>
+            <a class="btn btn-primary full" target="_blank" rel="noreferrer" href="https://wa.me/595971482844?text=Hola%2C%20quiero%20consultar%20por%20el%20iPhone%2017%20Pro%20Max%20256GB%20naranja%20de%20Tienda%20Pilio">Consultar por WhatsApp</a>
           </div>
         </article>
 
-        <article class="product-card">
+        <article class="product-card premium">
           <div class="carousel" data-carousel>
             <button class="carousel-btn prev" aria-label="Imagen anterior">‹</button>
             <div class="carousel-track">
@@ -152,59 +185,98 @@
             <div class="dots"></div>
           </div>
           <div class="product-body">
-            <div class="badge">Disponible</div>
+            <div class="product-meta">
+              <span class="badge">Disponible</span>
+              <span class="product-tag">Color silver</span>
+            </div>
             <h3>iPhone 17 Pro Max</h3>
             <p>512 GB · Color silver · Entrega inmediata</p>
             <div class="price">Gs. 9.000.000</div>
-            <a class="btn btn-primary full" target="_blank" rel="noreferrer" href="https://wa.me/595971482844?text=Hola%2C%20quiero%20consultar%20por%20el%20iPhone%2017%20Pro%20Max%20512GB%20color%20silver%20de%20Tienda%20Pilio">Consultar por WhatsApp</a>
+            <a class="btn btn-primary full" target="_blank" rel="noreferrer" href="https://wa.me/595971482844?text=Hola%2C%20quiero%20consultar%20por%20el%20iPhone%2017%20Pro%20Max%20512GB%20silver%20de%20Tienda%20Pilio">Consultar por WhatsApp</a>
           </div>
         </article>
       </div>
     </section>
 
     <section class="pedido-section" id="pedido">
-      <div class="container pedido-grid">
-        <div>
-          <div class="eyebrow">POR PEDIDO</div>
-          <h2>¿Buscás otro modelo?</h2>
+      <div class="container request-layout">
+        <div class="request-copy">
+          <div class="eyebrow">COMPRA POR PEDIDO</div>
+          <h2>¿Buscás un modelo específico?</h2>
           <p>
-            Si no encontrás el modelo que querés en stock, también trabajamos por pedido.
-            Consultanos por WhatsApp y te ayudamos a conseguirlo con plazo estimado de 10 a 15 días.
+            Si no encontrás el iPhone que querés en stock, también trabajamos por pedido desde Estados Unidos
+            con plazo estimado de 10 a 15 días.
+          </p>
+          <a href="https://wa.me/595971482844" target="_blank" rel="noreferrer" class="btn btn-secondary">Consultar un pedido</a>
+        </div>
+
+        <div class="steps-card">
+          <div class="step"><span>1</span><div><strong>Elegís tu modelo</strong><small>Nos decís qué iPhone querés conseguir.</small></div></div>
+          <div class="step"><span>2</span><div><strong>Confirmamos precio y disponibilidad</strong><small>Te respondemos directo por WhatsApp.</small></div></div>
+          <div class="step"><span>3</span><div><strong>Procesamos tu pedido</strong><small>Seguimiento claro y coordinación segura.</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story-section" id="confianza">
+      <div class="container story-grid">
+        <div>
+          <div class="eyebrow">LA EXPERIENCIA PILIO</div>
+          <h2>Una tienda pensada para dar confianza desde el primer vistazo</h2>
+        </div>
+        <div class="story-copy">
+          <p>
+            En Tienda Pilio mostramos stock real, fotos propias, precios visibles y atención directa.
+            La idea es que puedas elegir con más seguridad y resolver todo de forma simple.
           </p>
         </div>
-        <div class="steps">
-          <div><span>1</span>Elegís el modelo que querés</div>
-          <div><span>2</span>Confirmás disponibilidad y precio</div>
-          <div><span>3</span>Procesamos tu pedido</div>
-          <div><span>4</span>Coordinamos entrega o envío seguro</div>
+      </div>
+
+      <div class="container values-grid">
+        <div class="value-card">
+          <strong>Fotos reales</strong>
+          <p>Cada equipo se presenta con imágenes propias para que veas mejor lo que vas a comprar.</p>
+        </div>
+        <div class="value-card">
+          <strong>Atención personalizada</strong>
+          <p>Respondemos por WhatsApp para ayudarte a elegir el modelo ideal según tu presupuesto.</p>
+        </div>
+        <div class="value-card">
+          <strong>Envíos a todo Paraguay 🇵🇾</strong>
+          <p>Coordinamos entregas y envíos con un proceso claro y enfocado en generar confianza.</p>
         </div>
       </div>
     </section>
 
     <section class="gallery-section" id="galeria">
-      <div class="container section-head center">
-        <div class="eyebrow">GALERÍA</div>
-        <h2>Fotos reales de equipos disponibles</h2>
-        <p>Podés tocar cualquier imagen para verla más grande y revisar mejor cada detalle.</p>
+      <div class="container section-head premium-head">
+        <div>
+          <div class="eyebrow">GALERÍA</div>
+          <h2>Más fotos de equipos y detalles</h2>
+        </div>
+        <p>Tocá cualquier imagen para verla más grande.</p>
       </div>
-      <div class="container gallery-grid">
-        <button class="gallery-item" data-open="assets/iphone13pro-4.jpg"><img src="assets/iphone13pro-4.jpg" alt="Detalle del iPhone 13 Pro"></button>
-        <button class="gallery-item" data-open="assets/iphone17pm-orange-7.jpg"><img src="assets/iphone17pm-orange-7.jpg" alt="Detalle del iPhone 17 Pro Max naranja"></button>
-        <button class="gallery-item" data-open="assets/iphone17pm-silver-4.jpg"><img src="assets/iphone17pm-silver-4.jpg" alt="Detalle del iPhone 17 Pro Max silver"></button>
-        <button class="gallery-item" data-open="assets/iphone17pm-orange-8.jpg"><img src="assets/iphone17pm-orange-8.jpg" alt="Batería del iPhone 17 Pro Max naranja"></button>
+
+      <div class="container masonry-grid">
+        <button class="gallery-item tall" data-open="assets/iphone13pro-1.jpg"><img src="assets/iphone13pro-1.jpg" alt="Foto destacada de iPhone 13 Pro"></button>
+        <button class="gallery-item" data-open="assets/iphone17pm-orange-1.jpg"><img src="assets/iphone17pm-orange-1.jpg" alt="Foto destacada de iPhone 17 Pro Max naranja"></button>
+        <button class="gallery-item" data-open="assets/iphone17pm-silver-1.jpg"><img src="assets/iphone17pm-silver-1.jpg" alt="Foto destacada de iPhone 17 Pro Max silver"></button>
+        <button class="gallery-item" data-open="assets/iphone13pro-3.jpg"><img src="assets/iphone13pro-3.jpg" alt="Detalle de iPhone 13 Pro"></button>
+        <button class="gallery-item" data-open="assets/iphone17pm-orange-7.jpg"><img src="assets/iphone17pm-orange-7.jpg" alt="Detalle de iPhone 17 Pro Max naranja"></button>
       </div>
     </section>
 
     <section class="social-section" id="redes">
-      <div class="container section-head center">
-        <div class="eyebrow">REDES SOCIALES</div>
-        <h2>Seguinos en nuestras redes sociales</h2>
-        <p>Conocé novedades, stock disponible y más desde nuestras redes oficiales.</p>
-      </div>
-      <div class="container social-links">
-        <a href="https://www.instagram.com/tiendapilio/" target="_blank" rel="noreferrer">Instagram</a>
-        <a href="https://www.facebook.com/tiendadepilio" target="_blank" rel="noreferrer">Facebook</a>
-        <a href="https://www.tiktok.com/@tiendadepilio" target="_blank" rel="noreferrer">TikTok</a>
+      <div class="container social-shell">
+        <div>
+          <div class="eyebrow">REDES SOCIALES</div>
+          <h2>Seguinos y mirá más contenido de Tienda Pilio</h2>
+        </div>
+        <div class="social-links">
+          <a href="https://www.instagram.com/tiendapilio/" target="_blank" rel="noreferrer">Instagram</a>
+          <a href="https://www.facebook.com/tiendadepilio" target="_blank" rel="noreferrer">Facebook</a>
+          <a href="https://www.tiktok.com/@tiendadepilio" target="_blank" rel="noreferrer">TikTok</a>
+        </div>
       </div>
     </section>
 
@@ -212,10 +284,10 @@
       <div class="container contact-box">
         <div>
           <div class="eyebrow inverse">CONTACTO</div>
-          <h2>Contactanos y encontrá tu próximo iPhone</h2>
+          <h2>Consultá disponibilidad y encontrá tu próximo iPhone</h2>
           <p>
-            Consultá disponibilidad, precios o pedidos personalizados directamente por WhatsApp.
-            Hacemos envíos a todo el país 🇵🇾.
+            Escribinos por WhatsApp para recibir atención personalizada, consultar precios
+            o coordinar envíos a todo el país 🇵🇾.
           </p>
         </div>
         <div class="contact-actions">
